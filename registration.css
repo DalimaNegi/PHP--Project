@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('./cyber.jpg');
+
+    /* Set background size to cover the entire viewport */
+    background-size: cover;
+
+    /* Center the background image horizontally and vertically */
+    background-position: center;
+    
+    /* Repeat the background image if needed */
+    background-repeat: no-repeat;
+
+    /* Set a background color in case the image is unavailable or not fully covering */
+    background-color: #f4f9fb;
+}
+.crime-form {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: auto;
+    background-color: #E6E6FA; /* Add a background color here */
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.error-color {
+    color: red;
+}
+
+.form-error {
+    display: block;
+    margin-top: 5px;
+}
+
+.form-checkbox-label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-checkbox {
+    margin-right: 5px;
+}
+
+.form-submit {
+    padding: 10px;
+    background-color: #ba69f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #c481f0;
+}
